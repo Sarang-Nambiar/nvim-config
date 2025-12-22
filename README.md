@@ -1,8 +1,7 @@
 # nvim-config
 My neovim config for easy transferrability
-||||||| (empty tree)
-=======
-# AstroNvim Template
+
+## AstroNvim Template
 
 **NOTE:** This is for AstroNvim v5+
 
