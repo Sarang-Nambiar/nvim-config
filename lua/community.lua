@@ -11,6 +11,9 @@ return {
   { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.colorscheme.night-owl-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
+  { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
 }
