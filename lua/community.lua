@@ -14,6 +14,7 @@ return {
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
-  { import = "astrocommunity.color.transparent-nvim" },
+  { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
 }
