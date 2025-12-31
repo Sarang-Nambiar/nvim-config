@@ -5,8 +5,6 @@ return {
     exclude_groups = {
       "StatusLine",
       "StatusLineNC",
-      "WinBar",
-      "WinBarNC",
     },
   },
 }
