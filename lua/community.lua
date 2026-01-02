@@ -12,9 +12,9 @@ return {
   { import = "astrocommunity.colorscheme.night-owl-nvim" },
   { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
-  { import = "astrocommunity.recipes.heirline-nvchad-statusline" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim" },
+  { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
 }

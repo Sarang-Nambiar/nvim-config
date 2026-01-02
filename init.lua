@@ -13,6 +13,9 @@ if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
   end
 end
 
+vim.keymap.set("n", "<C-z>", "<NOP>", { noremap = true, silent = true })
+vim.keymap.set("n", "<Enter>", "o<ESC>", { noremap = true, silent = true })
+vim.keymap.set("n", "<S-Enter>", "O<ESC>", { noremap = true, silent = true })
 vim.opt.rtp:prepend(lazypath)
 
 -- validate that lazy is available
