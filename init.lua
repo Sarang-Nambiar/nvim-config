@@ -13,9 +13,13 @@ if not (vim.env.LAZY or (vim.uv or vim.loop).fs_stat(lazypath)) then
   end
 end
 
+-- Key remaps
 vim.keymap.set("n", "<C-z>", "<NOP>", { noremap = true, silent = true })
-vim.keymap.set("n", "<Enter>", "o<ESC>", { noremap = true, silent = true })
-vim.keymap.set("n", "<S-Enter>", "O<ESC>", { noremap = true, silent = true })
+vim.keymap.set("n", "<CR>", "o<ESC>", { noremap = true, silent = true })
+
+-- molten config
+vim.g.molten_copy_output = true -- Copies output when a cell is run
+
 vim.opt.rtp:prepend(lazypath)
 
 -- validate that lazy is available
