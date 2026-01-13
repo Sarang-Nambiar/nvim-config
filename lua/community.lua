@@ -18,4 +18,5 @@ return {
   { import = "astrocommunity.markdown-and-latex.vimtex" },
   { import = "astrocommunity.terminal-integration.vim-tmux-navigator" },
   { import = "astrocommunity.code-runner.molten-nvim" },
+  { import = "astrocommunity.editing-support.auto-save-nvim" },
 }

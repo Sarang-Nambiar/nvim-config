@@ -15,7 +15,6 @@ end
 
 -- Key remaps
 vim.keymap.set("n", "<C-z>", "<NOP>", { noremap = true, silent = true })
-vim.keymap.set("n", "<CR>", "o<ESC>", { noremap = true, silent = true })
 
 -- molten config
 vim.g.molten_copy_output = true -- Copies output when a cell is run
