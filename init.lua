@@ -19,6 +19,13 @@ vim.keymap.set("n", "<C-z>", "<NOP>", { noremap = true, silent = true })
 -- molten config
 vim.g.molten_copy_output = true -- Copies output when a cell is run
 
+-- Disable copying on delete (d) and dd
+vim.keymap.set("n", "d", '"_d', { noremap = true })
+vim.keymap.set("n", "dd", '"_dd', { noremap = true })
+
+-- Optional: Also disable copying for visual mode (x)
+vim.keymap.set("x", "d", '"_d', { noremap = true })
+
 vim.opt.rtp:prepend(lazypath)
 
 -- validate that lazy is available
