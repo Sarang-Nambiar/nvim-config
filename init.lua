@@ -23,6 +23,12 @@ vim.g.molten_copy_output = true -- Copies output when a cell is run
 vim.keymap.set("n", "d", '"_d', { noremap = true })
 vim.keymap.set("n", "dd", '"_dd', { noremap = true })
 
+-- latex localleader remapping
+vim.g.maplocalleader = ','
+
+-- zathura viewing
+vim.g.vimtex_view_method = 'zathura'
+
 -- Optional: Also disable copying for visual mode (x)
 vim.keymap.set("x", "d", '"_d', { noremap = true })
 
