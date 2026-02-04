@@ -8,9 +8,9 @@ return {
   { import = "astrocommunity.pack.lua" },
   -- import/override with your plugins folder
   -- { import = "astrocommunity.colorscheme.catppuccin" },
-  { import = "astrocommunity.colorscheme.gruvbox-baby" },
+  -- { import = "astrocommunity.colorscheme.gruvbox-baby" },
   { import = "astrocommunity.colorscheme.night-owl-nvim" },
-  { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  -- { import = "astrocommunity.colorscheme.tokyonight-nvim" },
   { import = "astrocommunity.scrolling.neoscroll-nvim" },
   { import = "astrocommunity.terminal-integration.flatten-nvim" },
   { import = "astrocommunity.motion.nvim-surround" },

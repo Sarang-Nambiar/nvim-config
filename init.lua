@@ -22,6 +22,8 @@ vim.g.molten_copy_output = true -- Copies output when a cell is run
 -- Disable copying on delete (d) and dd
 vim.keymap.set("n", "d", '"_d', { noremap = true })
 vim.keymap.set("n", "dd", '"_dd', { noremap = true })
+vim.keymap.set("n", "c", '"_c', { noremap = true })
+vim.keymap.set("n", "cc", '"_cc', { noremap = true })
 
 -- latex localleader remapping
 vim.g.maplocalleader = ','
