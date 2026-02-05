@@ -21,4 +21,5 @@ return {
   { import = "astrocommunity.search.nvim-spectre" },
   { import = "astrocommunity.game.leetcode-nvim" },
   { import = "astrocommunity.markdown-and-latex.vimtex" },
+  { import = "astrocommunity.git.neogit" },
 }
