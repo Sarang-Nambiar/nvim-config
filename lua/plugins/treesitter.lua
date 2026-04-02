@@ -5,13 +5,7 @@
 ---@type LazySpec
 return {
   "nvim-treesitter/nvim-treesitter",
-  branch = 'main',
-  build = ':TSUpdate',
-  opts = {
-    ensure_installed = {
-      "lua",
-      "vim",
-      -- add more arguments for adding more treesitter parsers
-    },
-  },
+  lazy = false,
+  branch = "main",
+  build = ":TSUpdate",
 }

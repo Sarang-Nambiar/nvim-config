@@ -26,10 +26,10 @@ vim.keymap.set("n", "c", '"_c', { noremap = true })
 vim.keymap.set("n", "cc", '"_cc', { noremap = true })
 
 -- latex localleader remapping
-vim.g.maplocalleader = ','
+vim.g.maplocalleader = ","
 
--- zathura viewing
-vim.g.vimtex_view_method = 'zathura'
+-- -- zathura viewing
+vim.g.vimtex_view_method = "zathura"
 
 -- Optional: Also disable copying for visual mode (x)
 vim.keymap.set("x", "d", '"_d', { noremap = true })
