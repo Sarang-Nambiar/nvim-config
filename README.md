@@ -35,3 +35,6 @@ git clone https://github.com/<your_user>/<your_repository> ~/.config/nvim
 ```shell
 nvim
 ```
+
+# Known Issues:
+If there is a no-bindings bug with tree-sitter installing latex, then just uninstall it, download tree-sitter-cli v0.25.10 or lower and then compile the latex grammar.
